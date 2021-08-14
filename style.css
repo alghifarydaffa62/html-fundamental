@@ -1,0 +1,25 @@
+<h1>halaman kdua</h1>
+    <h1>halaman kdua</h1>
+    <h1>halaman kdua</h1>
+    <h1>halaman kdua</h1>
+    <style>
+        h1  {
+          color:blue;
+          font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          text-align: center;
+    </style>
+
+/ fonts /
+h1.title {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 45px;
+
+}
+.paragraf{
+    color:red;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+        }
+    </style>
