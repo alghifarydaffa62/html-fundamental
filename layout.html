@@ -6,30 +6,40 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
-            width: 200px;
-            height: 200px;
-
-        }
-        .kotak1{
-            width: 200px;
-            height: 200px;
-            background-color: crimson;
-            position:relative
-            
+        .container{
+            height: 400px;
+            background-color:cyan;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+        
         }
 
-        .kotak2{
-            width: 200px;
-            height: 200px;
-            background-color:cyan
+        .kotak{
+            width: 150px;
+            height: 150px;
+            background-color: gold;
+            border: 5px solid black;
+            box-sizing: border-box;
+
+            font-weight: 900;
+            font-size: 50px;
+            text-align: center;
+            line-height: 150px;
+
         }
     </style>
 </head>
 <body>
-    <div class="kotak1">
-    </div>
-    <div class="kotak2">
-    </div>
+   <div class="container">
+       <div class="kotak">1</div>
+       <div class="kotak">2</div>
+       <div class="kotak">3</div>
+       <div class="kotak">4</div>
+       <div class="kotak">5</div>
+       <div class="kotak">6</div>
+   </div>
+
 </body>
 </html>
